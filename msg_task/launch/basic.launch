@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<node name="listener" pkg="msg_task" type="listener" output="screen"/>
+<node name="controller" pkg="msg_task" type="controller" output="screen"/>
+<node name="timer" pkg="msg_task" type="timer" output="screen"/>
+
+
+</launch>
+
